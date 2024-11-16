@@ -24,7 +24,7 @@ use_random_word = False  # Use random word? True|False
 # Konfigurasi font dan tampilan
 font_config = {
     "nama": {
-        "size": 40,
+        "size": 20,
         "color": "black",
         "bold": True,
         "display_font": True  # Mau ditampilin? True|False
