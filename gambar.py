@@ -5,16 +5,16 @@ from PIL import Image, ImageDraw, ImageFont
 
 # Set konfigurasi di sini agar mudah diubah
 # Folder
-template_folder = "/Users/Evan/Desktop/ticket/assets/"  # DESIGN
-qrcode_folder = "/Users/Evan/Desktop/ticket/qrcode/"  # QR CODE
-output_folder = "/Users/Evan/Desktop/ticket/output/"  # OUTPUT
-nama_file_path = "/Users/Evan/Desktop/ticket/nama/nama.txt"  # DATA NAMA
-font_regular_path = "/Users/Evan/Desktop/ticket/font/Poppins Regular 400.ttf"  # FONT Regular
-font_bold_path = "/Users/Evan/Desktop/ticket/font/Poppins Bold 700.ttf"  # FONT Bold
+template_folder = "/Users/Evan/Desktop/TICKET-MAGNOLIAS/assets/"  # DESIGN
+qrcode_folder = "/Users/Evan/Desktop/TICKET-MAGNOLIAS/qrcode/"  # QR CODE
+output_folder = "/Users/Evan/Desktop/TICKET-MAGNOLIAS/output/"  # OUTPUT
+nama_file_path = "/Users/Evan/Desktop/TICKET-MAGNOLIAS/nama/nama.txt"  # DATA NAMA
+font_regular_path = "/Users/Evan/Desktop/TICKET-MAGNOLIAS/font/Poppins Regular 400.ttf"  # FONT Regular
+font_bold_path = "/Users/Evan/Desktop/TICKET-MAGNOLIAS/font/Poppins Bold 700.ttf"  # FONT Bold
 
 # Konfigurasi (readable cuy)
 show_names = False  # Tampilkan nama ? True|False
-use_random_code = True  # Kode acak ? True|False
+use_random_code = False  # Kode acak ? True|False
 lower_bound = 1  # Index awal
 upper_bound = 10  # Index akhir
 
