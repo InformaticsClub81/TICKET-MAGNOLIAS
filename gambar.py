@@ -5,12 +5,12 @@ from PIL import Image, ImageDraw, ImageFont
 
 # Set konfigurasi di sini agar mudah diubah
 # Folder
-template_folder = "/Users/Evan/Desktop/TICKET-MAGNOLIAS/assets/"  # DESIGN
-qrcode_folder = "/Users/Evan/Desktop/TICKET-MAGNOLIAS/qrcode/"  # QR CODE
-output_folder = "/Users/Evan/Desktop/TICKET-MAGNOLIAS/output/"  # OUTPUT
-nama_file_path = "/Users/Evan/Desktop/TICKET-MAGNOLIAS/nama/nama.txt"  # DATA NAMA
-font_regular_path = "/Users/Evan/Desktop/TICKET-MAGNOLIAS/font/Poppins Regular 400.ttf"  # FONT Regular
-font_bold_path = "/Users/Evan/Desktop/TICKET-MAGNOLIAS/font/Poppins Bold 700.ttf"  # FONT Bold
+template_folder = r"C:\Users\Rasyi\OneDrive\Desktop\TICKET-MAGNOLIAS\assets"  # DESIGN
+qrcode_folder = r"C:\Users\Rasyi\OneDrive\Desktop\TICKET-MAGNOLIAS\qrcode"  # QR CODE
+output_folder = r"C:\Users\Rasyi\OneDrive\Desktop\TICKET-MAGNOLIAS\output"  # OUTPUT
+nama_file_path = r"C:\Users\Rasyi\OneDrive\Desktop\TICKET-MAGNOLIAS\nama\nama.txt"  # DATA NAMA
+font_regular_path = r"C:\Users\Rasyi\OneDrive\Desktop\TICKET-MAGNOLIAS\font\Poppins Regular 400.ttf"  # FONT Regular
+font_bold_path = r"C:\Users\Rasyi\OneDrive\Desktop\TICKET-MAGNOLIAS\font\Poppins Bold 700.ttf"  # FONT Bold
 
 # Konfigurasi (readable cuy)
 show_names = False  # Tampilkan nama ? True|False
@@ -18,8 +18,8 @@ use_random_code = False  # Kode acak ? True|False
 lower_bound = 1  # Index awal
 upper_bound = 10  # Index akhir
 
-use_wordlist = False  # Use wordlist dari nama_file_path ? True|False
-use_random_word = True  # Use random word? True|False
+use_wordlist = True  # Use wordlist dari nama_file_path ? True|False
+use_random_word = False  # Use random word? True|False
 
 # Konfigurasi font dan tampilan
 font_config = {
@@ -31,7 +31,7 @@ font_config = {
     },
     "code": {
         "size": 45,
-        "color": "black",
+        "color": "red",
         "bold": False,
         "display_font": True  # Mau ditampilin? True|False
     }
@@ -39,10 +39,10 @@ font_config = {
 
 # Koordinat
 coords = {
-    "qr": (155, 250),
+    "qr": (23, 38),
     # "code": (260, 150),
-    "code": (260, 25),
-    "nama": (150, 20)
+    "code": (79, 36),
+    "nama": (193, 160)
 }
 
 # Cek jika menggunakan kedua opsi (nama file dan random word) secara bersamaan
