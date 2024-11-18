@@ -28,7 +28,7 @@ def Capture_Event(event, x, y, flags, params):
 
 if __name__ == "__main__":
     # Baca gambar
-    img = cv2.imread('assets/1.jpeg', 1)
+    img = cv2.imread('assets/1.png', 1)
     
     while True:
         img_copy = img.copy()
