@@ -151,15 +151,15 @@ font_regular_path = r"C:\Users\Rasyi\OneDrive\Desktop\TICKET-MAGNOLIAS\font\Popp
 font_bold_path = r"C:\Users\Rasyi\OneDrive\Desktop\TICKET-MAGNOLIAS\font\Poppins Bold 700.ttf"  # FONT Bold
 
 # Variabel baru untuk konfigurasi
-generate_count = 10  # Banyaknya yang mau digenerate
+generate_count = 40  # Banyaknya yang mau digenerate
 use_wordlist_for_code = False  # Gunakan wordlist untuk code unik? True|False
 use_wordlist_for_output = False  # Gunakan wordlist untuk output filename? True|False
 
 # Konfigurasi font dan tampilan
 font_config = {
     "code": {
-        "size": 45,
-        "color": "red",
+        "size":100,
+        "color": "white",
         "bold": False,
         "display_font": True  # Menampilkan font untuk kode unik
     }
@@ -167,8 +167,8 @@ font_config = {
 
 # Koordinat untuk penempatan elemen
 coords = {
-    "qr": (160, 229),  # Koordinat untuk QR code
-    "code": (249, 81)  # Koordinat untuk Code unik
+    "qr": (136, 190),  # Koordinat untuk QR code
+    "code": (280, 17)  # Koordinat untuk Code unik
 }
 
 # Fungsi untuk menghasilkan random word
